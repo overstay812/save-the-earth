@@ -15,4 +15,4 @@ let moveBg = (event) => {
 
 }
 
-document.addEventListener('mouseover', moveBg)
+document.addEventListener('mousemove', moveBg)
