@@ -9,9 +9,9 @@ let moveBg = (event) => {
     bg.style.width = 100 + event.pageX / 100 + '%'
     bg.style.height = 100 + event.pageX / 100 + '%'
 
-    bird.style.right = 100 + event.pageX / 2 + 'px'
+    bird.style.right = 100 + event.pageX / 5 + 'px'
 
-    content.style.left = 100 + event.pageX / 2.5 + 'px'
+    content.style.left = 100 + event.pageX / 5 + 'px'
 
 }
 
